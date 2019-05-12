@@ -196,11 +196,13 @@
   .split-view--left .sidebar {
     left: -175px;
     text-align: left;
+    overflow-y:auto;
   }
 
   .split-view--right .sidebar {
     right: -175px;
     text-align: right;
+    overflow-y:auto;
   }
 
   .split-view--left .sidebar.sidebar--active {
